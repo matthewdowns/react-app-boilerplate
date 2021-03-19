@@ -1,7 +1,7 @@
 {
   "name": "@matthewdowns/react-typescript-webpack-template",
   "version": "1.0.0",
-  "description": "Optimized template repository for a React TypeScript Webpack app.",
+  "description": "Optimized template repository for React apps.",
   "main": "dist/index.js",
   "scripts": {
     "start": "webpack serve --open --progress --env NODE_ENV=development",

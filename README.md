@@ -1,3 +1,3 @@
-# webpack-typescript-react-app
+# react-app-boilerplate
 
 Optimized template repository for React apps.

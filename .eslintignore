@@ -1,0 +1,7 @@
+dist/
+node_modules/
+public/
+
+.prettierrc.js
+jest.config.js
+webpack.config.js

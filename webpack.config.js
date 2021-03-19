@@ -6,7 +6,7 @@ const { TsconfigPathsPlugin } = require('tsconfig-paths-webpack-plugin');
 const { DefinePlugin } = require('webpack');
 const { dependencies } = require('./package.json');
 
-const nodeModulesPath = resolve(__dirname, './node_modules');
+const publicPath = resolve(__dirname, './public');
 const srcPath = resolve(__dirname, './src');
 const distPath = resolve(__dirname, './dist');
 
@@ -52,8 +52,7 @@ module.exports = ({ NODE_ENV }) => {
                 template: join(srcPath, 'index.ejs'),
                 templateParameters: {
                     cdnReact: `https://unpkg.com/react@${dependencies['react'].match(/(\d+\.?)+/g)[0]}/umd/react${isProd ? '.production.min' : '.development'}.js`,
-                    cdnReactDom: `https://unpkg.com/react-dom@${dependencies['react-dom'].match(/(\d+\.?)+/g)[0]}/umd/react-dom${isProd ? '.production.min' : '.development'}.js`,
-                    cdnReactRouterDom: `https://unpkg.com/react-router-dom@${dependencies['react-router-dom'].match(/(\d+\.?)+/g)[0]}/umd/react-router-dom${isProd ? '.min' : ''}.js`,
+                    cdnReactDom: `https://unpkg.com/react-dom@${dependencies['react-dom'].match(/(\d+\.?)+/g)[0]}/umd/react-dom${isProd ? '.production.min' : '.development'}.js`
                 }
             })
         ],

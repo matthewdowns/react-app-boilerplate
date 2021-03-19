@@ -13,6 +13,13 @@
     "type": "git",
     "url": "git+https://github.com/matthewdowns/webpack-typescript-react-app.git"
   },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack",
+    "eslint",
+    "jest"
+  ],
   "author": "Matthew Downs <matthew.downsc@gmail.com>",
   "license": "MIT",
   "bugs": {

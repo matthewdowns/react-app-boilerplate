@@ -1,5 +1,5 @@
 {
-  "name": "@matthewdowns/react-typescript-webpack-template",
+  "name": "@matthewdowns/react-app-boilerplate",
   "version": "1.0.0",
   "description": "Optimized template repository for React apps.",
   "main": "dist/index.js",

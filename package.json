@@ -43,7 +43,7 @@
     "eslint-plugin-react": "^7.22.0",
     "html-webpack-plugin": "^5.3.2",
     "jest": "^26.6.3",
-    "terser-webpack-plugin": "^5.1.1",
+    "terser-webpack-plugin": "^5.2.4",
     "ts-jest": "^26.5.4",
     "ts-loader": "^8.0.18",
     "tsconfig-paths-jest": "^0.0.1",
